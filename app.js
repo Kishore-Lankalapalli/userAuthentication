@@ -34,7 +34,7 @@ const initializeDbAndServer = async () => {
 initializeDbAndServer();
 
 app.get("/home", async (request, response) => {
-  response.send("HELLO WORLD welcome to the world of pandora thank you");
+  response.send("HELLO WORLD");
 });
 
 app.post("/login", async (request, response) => {
